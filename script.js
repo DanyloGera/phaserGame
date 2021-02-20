@@ -30,7 +30,7 @@ var config = {
           this.load.image('ground', 'assets/platform.png');
           this.load.image('star', 'assets/star.png');
           this.load.image('bomb', 'assets/bomb.png');
-          this.load.spritesheet('dude', 'chalkers.png', { frameWidth: 48, frameHeight: 62 });
+          this.load.spritesheet('dude', 'assets/chalkers.png', { frameWidth: 48, frameHeight: 62 });
     }
 
 
