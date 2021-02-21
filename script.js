@@ -68,11 +68,11 @@ function create ()
         repeat: -1
     });
 
-    this.anims.create({
-        key: 'turn',
-        frames: [ { key: 'dude', frame: 4 } ],
-        frameRate: 20
-    });
+    // this.anims.create({
+    //     key: 'turn',
+    //     frames: [ { key: 'dude', frame: 4 } ],
+    //     frameRate: 20
+    // });
 
     this.anims.create({
         key: 'right',
@@ -137,7 +137,7 @@ function update ()
     {
         player.setVelocityX(0);
 
-        player.anims.play('turn');
+        // player.anims.play('turn');
     }
 
     if (cursors.up.isDown && player.body.touching.down)
